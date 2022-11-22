@@ -1,0 +1,27 @@
+#about {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+}
+
+.info h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.info h5 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.info {
+    padding-top: 5rem;
+}
+
+.off-white {
+    color: var(--color-off-white);
+}
+
+/******* MEDIA QUERIES *******/
