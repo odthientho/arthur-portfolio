@@ -4,7 +4,6 @@ import Nav from './components/nav/Nav';
 import './app.css'
 
 function App() {
-
   return (
     <>
       <About />

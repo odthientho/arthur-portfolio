@@ -20,6 +20,7 @@
     --color-theme-yellow: #CEC288;
     --color-white: #FFFFFF;
     --color-off-white: rgba(255, 255, 255, 0.60);
+    --color-blue: #4DB5FF;
 }
 
 html {
@@ -37,11 +38,8 @@ body {
     background-image: url('./assets/bg-texture.png');
 }
 
-.flex {
+.flex-container {
     display: flex;
-}
-
-.flex-row {
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -53,3 +51,14 @@ section {
 }
 
 /***************** Media Queries for larger screen ****************/
+@media screen and (min-width: 600px) {
+    section {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        width: 60%;
+    }
+}
