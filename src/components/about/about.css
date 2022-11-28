@@ -19,17 +19,20 @@
 
 .intro {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    min-width: 400px;
 }
 
 .about_me {
-    width: 75%;
+    flex-direction: column;
+    padding-top: 5rem;
+    align-items: center;
 }
 
 .about_me .about_image {
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-blue), transparent);
-    height: 40vh;
+    width: fit-content;
+    height: 30vh;
     aspect-ratio: 1/1;
 }
 
@@ -47,6 +50,7 @@
 
 @media screen and (min-width: 1024px) {
     .about_me {
-        width: 35%;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

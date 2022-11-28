@@ -7,34 +7,29 @@ import { AiOutlineMessage } from 'react-icons/ai'
 import { AiFillFilePdf } from 'react-icons/ai'
 
 
-const Nav = () => {
-    const [navActive, setNavActive] = useState('ABOUT ME');
+const Nav = (props) => {
     const [navHover, setNavHover] = useState('');
     return (
         <div className='navbar'>
             <nav className='flex-container'>
                 <a onMouseOver={() => setNavHover('Get To Know Me')}
                     onMouseOut={() => setNavHover('')}
-                    onClick={() => setNavActive('ABOUT ME')}
-                    className={navActive === 'ABOUT ME' ? 'nav-active' : ''} 
-                    href=''><BiUserCircle/></a>
+                    className={props.section === 'ABOUT ME' ? 'nav-active' : ''} 
+                    href='/'><BiUserCircle/></a>
                 <a onMouseOver={() => setNavHover('My Recent Works')} 
                     onMouseOut={() => setNavHover('')}
-                    onClick={() => setNavActive('PORTFOLIO')}
-                    className={navActive === 'PORTFOLIO' ? 'nav-active' : ''} 
-                    href='' ><IoLibraryOutline/></a>
+                    className={props.section === 'PORTFOLIO' ? 'nav-active' : ''} 
+                    href='/portfolio' ><IoLibraryOutline/></a>
                 <a onMouseOver={() => setNavHover('Get In Touch With Me')}
                     onMouseOut={() => setNavHover('')}
-                    onClick={() => setNavActive('CONTACT')}
-                    className={navActive === 'CONTACT' ? 'nav-active' : ''} 
-                    href='' ><AiOutlineMessage/></a>
+                    className={props.section === 'CONTACT' ? 'nav-active' : ''} 
+                    href='/contact' ><AiOutlineMessage/></a>
                 <a onMouseOver={() => setNavHover('My Skills & Resumé')} 
                     onMouseOut={() => setNavHover('')}
-                    onClick={() => setNavActive('RESUME')}
-                    className={navActive === 'RESUME' ? 'nav-active' : ''} 
-                    href='' ><AiFillFilePdf/></a>
+                    className={props.section === 'RESUME' ? 'nav-active' : ''} 
+                    href='/resume' ><AiFillFilePdf/></a>
             </nav>
-            <div className='nav-title'>{navHover?navHover:navActive}</div>
+            <div className='nav-title'>{navHover?navHover:props.section}</div>
         </div>
     )
 }
