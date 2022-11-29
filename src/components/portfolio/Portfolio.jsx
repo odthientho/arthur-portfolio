@@ -11,7 +11,7 @@ const Portfolio = () => {
             <section id='portfolio'>
                 <div className='intro'>
                     <h5>My Recent Works</h5>
-                    <h1>Portfolio</h1>
+                    <h1>My Portfolio</h1>
                 </div>
                 <div className='flex-container portfolio_container'>
                     <article className='portfolio_item'>
