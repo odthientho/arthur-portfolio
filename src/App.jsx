@@ -1,34 +1,22 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
 import About from './components/about/About';
+import Nav from './components/nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Resume from './components/resume/Resume';
 import './app.css'
 
 function App() {
+  const [navActive, setNavActive] = useState('ABOUT ME');
   return (
     <>
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={<About />}
-          />
-          <Route
-            path="/portfolio"
-            element={<Portfolio />}
-          />
-          <Route
-            path="/contact"
-            element={<Contact />}
-          />
-          <Route
-            path="/resume"
-            element={<Resume />}
-          />
-        </Routes>
-      </Router>
+      { 
+        (navActive === "PORTFOLIO") ? <Portfolio /> : 
+        ((navActive === "CONTACT") ? <Contact /> :
+        ((navActive === "RESUME") ? <Resume /> : 
+        (<About /> )))
+      }
+      <Nav navActive={navActive} setNavActive={setNavActive} />
     </>
   )
 }

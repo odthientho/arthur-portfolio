@@ -61,7 +61,6 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <Nav section={"ABOUT ME"}/>
         </>
     )
 }

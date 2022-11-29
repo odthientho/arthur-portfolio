@@ -21,7 +21,7 @@ nav {
     flex-direction: row;
 }
 
-nav a {
+nav div {
     text-decoration: none;
     background: transparent;
     padding: 0.25rem 0.5rem;
@@ -30,8 +30,9 @@ nav a {
     font-size: 2rem;
 }
 
-nav a:hover{
+nav div:hover{
     background-color: var(--color-background);
+    cursor: pointer;
 }
 
 nav .nav-active {

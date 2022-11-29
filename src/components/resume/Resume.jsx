@@ -102,7 +102,6 @@ const Resume = () => {
                     </div>
                 </div>
             </section>
-            <Nav section={"RESUME"}/>
         </>
     )
 }

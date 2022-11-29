@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import Nav from '../nav/Nav'
 import './portfolio.css'
@@ -64,7 +66,6 @@ const Portfolio = () => {
                     </article>
                 </div>
             </section>
-            <Nav section={"PORTFOLIO"}/>
         </>
     )
 }
