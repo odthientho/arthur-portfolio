@@ -47,6 +47,23 @@ section {
     height: 100vh;
     width: 90%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro h5 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-off-white);
+}
+
+.intro {
+    padding-top: 3rem;
+    min-width: 400px;
 }
 
 /***************** Media Queries for larger screen ****************/
