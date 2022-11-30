@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-import Nav from '../nav/Nav'
 import './portfolio.css'
 import PROJECT_POLISH from '../../assets/project_polish.png'
 import PROJECT_RESUME from '../../assets/project_resume.png'

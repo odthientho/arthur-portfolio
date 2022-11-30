@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-import Nav from '../nav/Nav'
 import './resume.css'
 import RESUME from '../../assets/resume.pdf'
 import { DiHtml5, DiCss3, DiJavascript, DiBootstrap, DiReact, DiJqueryLogo, DiNodejsSmall, DiMongodb } from 'react-icons/di'

@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
-import Nav from '../nav/Nav';
 import './contact.css';
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsMessenger } from 'react-icons/bs'
