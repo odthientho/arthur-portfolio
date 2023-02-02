@@ -20,8 +20,8 @@ const Portfolio = () => {
                             <img src={ PROJECT_RESUME } alt="Project Polish" />
                         </div>
                         <h3>Resumé Generator App</h3>
-                        <a href='https://github.com/odthientho/Polished' target="_blank" className='github_btn'>GitHub</a>
-                        <a href='https://polished-booking-app.herokuapp.com/' target="_blank" className='demo_btn'>Live Demo</a>
+                        <a href='https://github.com/odthientho/ResuMade' target="_blank" className='github_btn'>GitHub</a>
+                        <a href='http://resumade.herokuapp.com/' target="_blank" className='demo_btn'>Live Demo</a>
                     </article>
                     <article className='portfolio_item'>
                         <div className='portfolio_item-image'>
@@ -38,30 +38,6 @@ const Portfolio = () => {
                         <h3>Have A MARVELous Time</h3>
                         <a href='https://github.com/odthientho/have-a-marvelous-time' target="_blank" className='github_btn'>GitHub</a>
                         <a href='https://makeithappenmike.github.io/have-a-marvelous-time/' target="_blank" className='demo_btn'>Live Demo</a>
-                    </article>
-                    <article className='portfolio_item'>
-                        <div className='portfolio_item-image'>
-                            <img src={ PROJECT_POLISH } alt="Project Polish" />
-                        </div>
-                        <h3>Resumé Generator App</h3>
-                        <a href='https://github.com/odthientho' target="_blank" className='github_btn'>GitHub</a>
-                        <a href='https://github.com/odthientho' target="_blank" className='demo_btn'>Live Demo</a>
-                    </article>
-                    <article className='portfolio_item'>
-                        <div className='portfolio_item-image'>
-                            <img src={ PROJECT_POLISH } alt="Project Polish" />
-                        </div>
-                        <h3>Resumé Generator App</h3>
-                        <a href='https://github.com/odthientho' target="_blank" className='github_btn'>GitHub</a>
-                        <a href='https://github.com/odthientho' target="_blank" className='demo_btn'>Live Demo</a>
-                    </article>
-                    <article className='portfolio_item'>
-                        <div className='portfolio_item-image'>
-                            <img src={ PROJECT_POLISH } alt="Project Polish" />
-                        </div>
-                        <h3>Resumé Generator App</h3>
-                        <a href='https://github.com/odthientho' target="_blank" className='github_btn'>GitHub</a>
-                        <a href='https://github.com/odthientho' target="_blank" className='demo_btn'>Live Demo</a>
                     </article>
                 </div>
             </section>

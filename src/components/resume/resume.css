@@ -41,28 +41,23 @@
 
 .dev_technologies {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
 }
 
 .tech_details {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content:space-evenly;
 }
 
 .tech_details .tech_icon {
-    margin-top: 0.3rem;
     color: var(--color-blue);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-.tech_details div {
-    text-align: left;
-}
-
-.tech_details small {
-    font-size: 0.75rem;
-    color: var(--color-off-white);
+.tech_details h4 {
+    font-size: 0.8rem;
 }
 
 .resume_viewBtn {
